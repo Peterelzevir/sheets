@@ -151,7 +151,7 @@ async function generateMarketplaceResponse(marketplace) {
 
 // Bot commands
 bot.start((ctx) => {
-  ctx.reply("Halo, perkenalkan saya ini bot!\nDibuat dengan Node.js dan Telegraf\n\npilih perintah /help untuk melihat comand lainnya.");
+  ctx.reply("Halo, perkenalkan saya adalah bot telegram\n\npilih perintah /help untuk melihat comand lainnya.");
 });
 
 bot.help(async (ctx) => {
