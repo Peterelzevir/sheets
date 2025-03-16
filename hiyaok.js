@@ -157,7 +157,7 @@ bot.command('ping', (ctx) => {
 });
 
 // Fungsi untuk mengirim pesan ping secara berkala
-const chatId = 'YOUR_CHAT_ID'; // Ganti dengan ID chat Anda
+const chatId = '7776878622'; // Ganti dengan ID chat Anda
 const pingInterval = 10 * 60 * 1000; // 10 menit
 
 setInterval(() => {
