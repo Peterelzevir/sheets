@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "hiyaok.js",  // Ganti dengan nama file utama bot Anda jika berbeda
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "index.js"  // Ganti dengan nama file utama bot Anda jika berbeda
+    }
+  ],
+  "env": {
+    "TOKEN": "8150553743:AAHk2aac32xLL9erzl1l2a1EQO7_Xqmy1TU",  // Ganti dengan nama variabel lingkungan Anda
+    "SHEET_ID": "1rk1d5MQByRpUz6WPyZRqBJp3QYeiv_vQF1NnR2M2gNQ"    // Ganti dengan nama variabel lingkungan Anda
+  }
+}
